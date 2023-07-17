@@ -1,0 +1,118 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  .logo {
+    margin-left: 100px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    h1 {
+      color: #636060;
+      font-family: Helvetica;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 40px;
+    }
+  }
+}
+.sec-1 {
+  margin-top: 20px;
+  .mshobeli {
+    display: relative;
+    .child-1 {
+      display: absolute;
+      h1 {
+        color: #fff;
+        font-family: Helvetica;
+        font-size: 79px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .child-2 {
+      display: absolute;
+      top: 50%;
+      left: 50%;
+      h2 {
+        color: #fff;
+        font-family: Helvetica;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+footer {
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  .serv {
+    margin-right: 190px;
+    h3 {
+      color: #636060;
+      font-family: Helvetica;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 5px;
+    }
+    h1 {
+      color: #010101;
+      font-family: Helvetica;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #636060;
+      font-family: Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 235px;
+      height: 115px;
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .mshobeli {
+      width: 286px;
+      height: 300px;
+      margin-bottom: 20px;
+    }
+    .child-2 {
+      h1 {
+        color: #343232;
+        font-family: Helvetica;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+      h2 {
+        color: #636060;
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
